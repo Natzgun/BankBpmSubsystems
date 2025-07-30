@@ -38,6 +38,9 @@
 									"    var jsonData = pm.response.json();",
 									"    // Campo esperado: estado, Valor esperado: APROBADO",
 									"    pm.expect(jsonData.estado).to.eql(\"APROBADO\");",
+									"});",
+									"pm.test(\"Tiempo de respuesta < 1000ms\", function () {",
+									"    pm.expect(pm.response.responseTime).to.be.below(1000);",
 									"});"
 								],
 								"type": "text/javascript"
@@ -99,6 +102,9 @@
 									"    var jsonData = pm.response.json();",
 									"    // Campo esperado: estado, Valor esperado: RECHAZADO",
 									"    pm.expect(jsonData.estado).to.eql(\"RECHAZADO\");",
+									"});",
+									"pm.test(\"Tiempo de respuesta < 1000ms\", function () {",
+									"    pm.expect(pm.response.responseTime).to.be.below(1000);",
 									"});"
 								],
 								"type": "text/javascript",
@@ -160,6 +166,9 @@
 									"    var jsonData = pm.response.json();",
 									"    // Campo esperado: estado, Valor esperado: EN_PROCESO",
 									"    pm.expect(jsonData.estado).to.eql(\"EN_PROCESO\");",
+									"});",
+									"pm.test(\"Tiempo de respuesta < 1000ms\", function () {",
+									"    pm.expect(pm.response.responseTime).to.be.below(1000);",
 									"});"
 								],
 								"type": "text/javascript"
@@ -225,6 +234,9 @@
 									"    var jsonData = pm.response.json();",
 									"    // Campo esperado: hojaGenerada, Valor esperado: True",
 									"    pm.expect(jsonData.hojaGenerada).to.eql(true);",
+									"});",
+									"pm.test(\"Tiempo de respuesta < 1000ms\", function () {",
+									"    pm.expect(pm.response.responseTime).to.be.below(1000);",
 									"});"
 								],
 								"type": "text/javascript"
@@ -285,6 +297,9 @@
 									"    var jsonData = pm.response.json();",
 									"    // Campo esperado: cronogramaEmitido, Valor esperado: True",
 									"    pm.expect(jsonData.cronogramaEmitido).to.eql(true);",
+									"});",
+									"pm.test(\"Tiempo de respuesta < 1000ms\", function () {",
+									"    pm.expect(pm.response.responseTime).to.be.below(1000);",
 									"});"
 								],
 								"type": "text/javascript"
@@ -350,6 +365,9 @@
 									"    var jsonData = pm.response.json();",
 									"    // Campo esperado: firmado, Valor esperado: True",
 									"    pm.expect(jsonData.firmado).to.eql(true);",
+									"});",
+									"pm.test(\"Tiempo de respuesta < 1000ms\", function () {",
+									"    pm.expect(pm.response.responseTime).to.be.below(1000);",
 									"});"
 								],
 								"type": "text/javascript"
@@ -410,6 +428,9 @@
 									"    var jsonData = pm.response.json();",
 									"    // Campo esperado: pagoNotarial, Valor esperado: REALIZADO",
 									"    pm.expect(jsonData.pagoNotarial).to.eql(\"REALIZADO\");",
+									"});",
+									"pm.test(\"Tiempo de respuesta < 1000ms\", function () {",
+									"    pm.expect(pm.response.responseTime).to.be.below(1000);",
 									"});"
 								],
 								"type": "text/javascript"
@@ -470,6 +491,9 @@
 									"    var jsonData = pm.response.json();",
 									"    // Campo esperado: pagoRegistral, Valor esperado: REALIZADO",
 									"    pm.expect(jsonData.pagoRegistral).to.eql(\"REALIZADO\");",
+									"});",
+									"pm.test(\"Tiempo de respuesta < 1000ms\", function () {",
+									"    pm.expect(pm.response.responseTime).to.be.below(1000);",
 									"});"
 								],
 								"type": "text/javascript"
@@ -535,6 +559,9 @@
 									"    var jsonData = pm.response.json();",
 									"    // Campo esperado: estado, Valor esperado: EJECUTADO",
 									"    pm.expect(jsonData.estado).to.eql(\"EJECUTADO\");",
+									"});",
+									"pm.test(\"Tiempo de respuesta < 1000ms\", function () {",
+									"    pm.expect(pm.response.responseTime).to.be.below(1000);",
 									"});"
 								],
 								"type": "text/javascript"
@@ -595,6 +622,9 @@
 									"    var jsonData = pm.response.json();",
 									"    // Campo esperado: estado, Valor esperado: PENDIENTE",
 									"    pm.expect(jsonData.estado).to.eql(\"PENDIENTE\");",
+									"});",
+									"pm.test(\"Tiempo de respuesta < 1000ms\", function () {",
+									"    pm.expect(pm.response.responseTime).to.be.below(1000);",
 									"});"
 								],
 								"type": "text/javascript"
@@ -657,6 +687,9 @@
 									"    var jsonData = pm.response.json();",
 									"    // Campo esperado: firmaEscritura, Valor esperado: REGISTRADA",
 									"    pm.expect(jsonData.firmaEscritura).to.eql(\"REGISTRADA\");",
+									"});",
+									"pm.test(\"Tiempo de respuesta < 1000ms\", function () {",
+									"    pm.expect(pm.response.responseTime).to.be.below(1000);",
 									"});"
 								],
 								"type": "text/javascript"
